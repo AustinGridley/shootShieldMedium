@@ -1,0 +1,164 @@
+body {
+    background-color: #3D2B3D;
+    font-size: 100%;
+}
+  h1 {
+    font-size: 2.25em;
+    text-align: center;
+    color: #D0FFCE;
+    background-color: #9B1D20;
+    border: 5px solid #9B1D20;
+    border-radius: 8px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: 2em auto;
+    width: 320px;
+    margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+   }
+   h2 {
+    font-size: 1.4em;
+    text-align: center;
+    color: #D0FFCE;
+    background-color: #9B1D20;
+    border: 5px solid #9B1D20;
+    margin: 2em auto;
+    width: 320px;
+    margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+   }
+   h3 {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    background-color: white;
+    border: 5px solid white;
+    width: 320px;
+    margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+  }
+    
+  h4 {
+    font-size: 2.25em;
+      text-align: center;
+      color: black;
+      background-color: white;
+      border: 5px solid white;
+      margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+
+      
+  }
+  h5 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background-color: white;
+    border: 5px solid white;
+    width: 320px;
+    margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+  }
+  h6 {
+    font-size: 1.25em;
+    text-align: center;
+    color: #D0FFCE;
+    background-color: #9B1D20;
+    border: 5px solid #9B1D20;
+    border-radius: 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin: 2em auto;
+    width: 320px;
+    margin: 0px;
+    margin-bottom: 35%;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+  }
+  #rules {
+   
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin: 2em auto;
+    width: 320px;
+    margin: 0px;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+}
+  #title{
+    text-align: center;
+    color: #CBEFB6;
+    font-size: 2.25em;
+    margin: 2.5em auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 400px;
+    overflow: auto;
+    text-overflow: auto;
+  }
+  .badge{
+    text-align: center;
+    margin: 2.5em auto;
+    margin-top: 2%;
+    width: 320px;
+  }
+  .textBox{
+    font-size: 1.25em;
+    text-align: center;
+    color: #CBEFB6;
+    margin: 2.5em auto;
+    margin-top: 2%;
+    width: 320px;
+    overflow: auto;
+    text-overflow: auto;
+  }
+  .smallText{
+    text-align: center;
+    color: #CBEFB6;
+    font-size: 1.25em;
+    margin: 1.5em auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:1100px;
+    overflow: auto;
+    text-overflow: auto;
+
+  }
+  #bigText{
+    text-align: center;
+    color: #CBEFB6;
+    font-size: 1.25em;
+    margin: 1.5em auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:1300px;
+    overflow: auto;
+    text-overflow: auto;
+
+  }
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  }

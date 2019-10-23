@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+        <title>Shoot Shield Reload Game</title>
+        <link rel="stylesheet" href="shootShieldMedium.css">
+        <script src="./shootShieldMedium.js"></script>
+        <noscript>Your browser does not support JavaScript! Sucks to be you!</noscript>
+        <script src="https://kit.fontawesome.com/797785b0de.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+    <div id= "title">Shoot Shield Reload Game <br>
+                    Medium Mode
+    </div>
+    <main>
+            <div class = "textBox">
+                    Shoot, Shield, Reload, or Super Shot? <input type="text" id="inputText" placeholder= "Choose Fool">
+                        <br>
+                        <br>
+                        <!--game count clicks-->
+                        <!--submit button that shoots off a bunch of functions etc.-->
+                        <button onclick="mainThing()">Submit</button> 
+                  </div> 
+                  <!--divide the page from the input to the output-->
+                  <hr>
+                <div class="badge">
+                    <!--Eventually I'd like the user to be able to input how many dice they would like to roll-->
+                    <!--So this identifies which dice is which and will eventually need to be an id with a function-->
+                    <h1><i class="fas fa-hand-point-right"></i>&nbsp&nbsp&nbsp&nbsp 
+                        <i class="fas fa-shield-alt"></i></i>&nbsp&nbsp&nbsp&nbsp
+                        <i class="fas fa-sync-alt"></i></h1>
+                    <!--Several of the functions and output happen on "h2"-->
+                    <!--When I try to change the headers to go to 8 it freaks out so idk how to fix that-->
+                    <!--I could fix the css so that I use padding instead of empty lines-->
+                    <h2 id="printOpponentOutput"> &nbsp </h2>
+                    <h2 id="printUserOutput"> </h2>
+                    <!--h2 id="result"></h2>-->
+                    <h3 id="clicksSpace">&nbsp</h3>
+                    <h3 id="clicksSpace">&nbsp</h3>
+                    <!--Icon improvement. -->
+                    <h4 id="printOutcome"> 
+                        <i class="fas fa-dice"></i> </h4>
+                       
+                    <h5>&nbsp</h5>
+                    <h5>&nbsp</h5>
+                    <!--Icons with question-->
+                    <h6 id="luckyLocation">
+                        <i class="fas fa-question"></i>
+                        <i class="fas fa-dice"></i> 
+                        <!--win loss-->
+                        Are you Feeling lucky?
+                        <i class="fas fa-dice"></i>
+                        <i class="fas fa-question"></i>
+                    </h6>
+                    <p id=rules><h7>Rules of the game</h6><br>
+                        You are trying to shoot your opponent. You can only shoot when you have bullets. 
+                        When you reload, you gain one bullet. When you shield and your opponent shoots, 
+                        you are safe and they lose a bullet.  If you shoot without possessing any bullets,
+                        you automatically shield. If you both shoot, you both lose a bullet. 
+                        First adversary to shoot while the other reloads wins. 
+                        If you get five bullets (or your opponent gets four bullets) both of you can super shot.
+                        A super shot will automatically win, regardless of shield status, unless both of you super shot, 
+                        then you both will lose four and five bullets respectively.
+                    </p>
+                </div>
+
+    </main>
+    </body>
